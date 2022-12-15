@@ -1,16 +1,16 @@
-name = "charliebanana"
+name = "cf-worker-middleware"
 type = "javascript"
-zone_id = ""
-account_id = "f39f700e75c45960a1b4e1ad200acd82"
+zone_id = "1048b5b416c8a97887bc9dfa4bd4a739"
+account_id = "4fe6a6121b7bc337e5788083c0e28fa2"
 route = ""
 workers_dev = true
 
 [build]
-command = "npm install && npm run download:manifest && npm run build"
+command = "npm install && npm run build"
 [build.upload]
 format = "service-worker"
 
 [vars]
-ORIGIN_URL = "charliebanana.z5.web.core.windows.net"
+ORIGIN_URL = "jsonplaceholder.typicode.com"
 
-compatibility_date = "2022-11-12"
+compatibility_date = "2022-12-08"
