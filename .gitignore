@@ -1,1 +1,53 @@
-node_modules
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/dist
+app/node_modules
+/.pnp
+.pnp.js
+
+# testing
+app/coverage
+
+#screenshots in cypress
+app/cypress/screenshots
+
+# next.js
+app/.next/
+app/out/
+
+# production
+app/sb2-build
+
+# misc
+.DS_Store
+.env*
+.npmrcartillery_report*
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# security
+#**/.npmrc
+
+#testing
+app/cypress/videos
+
+# typescript
+*.tsbuildinfo
+
+#Storybook build
+# production
+app/storybook-static/
+app/storybook/storybook-static/
+app/storybook/node_modules/
+
+#stackbit
+.cache
+
+# yalc file when linking with external repos
+.yalc

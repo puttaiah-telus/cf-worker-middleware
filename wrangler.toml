@@ -13,4 +13,4 @@ format = "service-worker"
 [vars]
 ORIGIN_URL = "jsonplaceholder.typicode.com"
 
-compatibility_date = "2022-12-08"
+compatibility_date = "2022-12-15"

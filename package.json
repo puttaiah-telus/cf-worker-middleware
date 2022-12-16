@@ -19,6 +19,10 @@
       "prettier"
     ]
   },
+  "dependencies": {
+    "@telus/analytics-scripts": "^2.1.1",
+    "@telus/next-locale-middleware": "^2.1.0"
+  },
   "devDependencies": {
     "@cloudflare/workers-types": "^3.0.0",
     "@types/jest": "^26.0.24",
